@@ -90,7 +90,7 @@ async function back(page /* Puppeteer page API */) {
 module.exports = {action, back, url};
 ```
 
-But the "reset" consists of the last two clicks, so you can manually move one:
+But the "reset" consists of the last two clicks, so you can manually move one from `action()` to `back()`:
 
 ```js
 // initial page load
@@ -117,7 +117,7 @@ async function back(page /* Puppeteer page API */) {
 module.exports = {action, back, url};
 ```
 
-You aso need the typing which is not supported by the extension. Luckily, this is not too hard, given that the Recorder comes with Puppeteer export so you can copy individual steps in the recording and use the generated code.
+You also need the keyboard typing which is not supported by the extension. Luckily, this is not too hard, given that the Recorder comes with Puppeteer export so you can copy individual steps in the recording and use the generated code.
 
 The end result:
 
