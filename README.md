@@ -14,11 +14,11 @@
 
 This is an extension to the Recorder panel in DevTools. So Open DevTools and click on More options -> More tools -> Recorder. This is needed only once.
 
-Then start a new recording and then export the Memlab Scenario file:
+Then start a new recording and export the Memlab Scenario file:
 
 ![Export scenario](/sshot.png)
 
-## Sample exported scenario:
+## Sample exported scenario
 
 ```js
 // initial page load
