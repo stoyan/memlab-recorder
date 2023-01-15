@@ -90,7 +90,7 @@ async function back(page /* Puppeteer page API */) {
 module.exports = {action, back, url};
 ```
 
-But the "reset" consist of the last two click, so you can manually move one:
+But the "reset" consists of the last two clicks, so you can manually move one:
 
 ```js
 // initial page load
