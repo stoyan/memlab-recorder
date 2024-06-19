@@ -1,14 +1,13 @@
 {
   "manifest_version": 3,
-  "version": "0.1.0",
-  "name": "Memlab Recorder",
-  "description": "DevTools extension that exports MemLab scenario files from the Recorder panel.",
+  "version": "1.0.0",
+  "name": "Memlab Scenario Recorder",
+  "description": "DevTools Recorder Panel extension that exports MemLab scenario files",
   "permissions": [],
   "devtools_page": "MemlabRecorderPlugin.html",
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   },
-  "minimum_chrome_version": "104.0.5107.0",
   "icons": {
      "16": "icon16.png",
      "32": "icon32.png",
